@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title> Chat Room </title>
+  </head>
+  <body>
+    <div>
+      <h1>ChatRoom</h1>
+      <h2>Send Message</h2>
+      <input id="username" class="textbox" type="textbox" placeholder="Enter Username">
+      <input id="message" class="textbox" type="textbox" placeholder="Enter Message">
+      <input type="submit" name="submitButton" value="Submit" onclick="submit()"/>
+
+    </div>
+    <div>
+      <h2>Load Message</h2>
+      <textarea id="textbox" rows="4" cols="50">Type in the username of the person whose most recent message you'd like to view here</textarea>
+      <input type="submit" name="loadButton" value="Load" onclick="load()" />
+    </div>
+
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="getData.js"></script>
+
+  </body>
+
+</html>
